@@ -21,15 +21,93 @@ The package selected is Tkinter. <br />
 
 - How do you use it
 
+The GUI in Tkinter is basically A window with widgets/frames that have functionality and/or design.
+ <br />
+
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/4492789c-64a2-49b1-b3ac-e00c85e9e78f" width=80% height=80%> <br />
+Description: image of program for reference
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/cfbd11f9-b691-495f-a4ad-03dc6212f963" width=80% height=80%> <br />
+Description: schematics of program in terms of grid rows and columns and its widgets/frames <br />
+ <br />
+
+In order to use TKinter you need to import it.
+```
+import tkinter as tk
+```
+ <br />
+
+The GUI begins with a root, this is the main window that will be worked in.
+```
+root = tk.Tk()
+```
+ <br />
+
+You can change the starting window size with geometry("widthxheight") and you can set the title with title().
+```
+root.geomety("300x200")
+root.title("Sentence Report")
+```
+ <br />
+
+
+In order to position the label and entry together in a grid we need to combine them in frame, this can be seen as a
+container for more frames or widgets.
+```
+inputFrame = tk.Frame(root)
+```
+ <br />
+
+You can display text with a Label(). You need the text= so that the function knows what that string is used for.
+The justify and anchor parameter is make sure the left is positioned and aligned from the left, anchor uses compass directions. After creating the label you can add it to the frame and give its row and column position. 
+Any other widget/frame should have a different position otherwise it will be overwritten.
+The padx paramter is there so that there is 10px of spacing from the border and other widgets. 
+
+```
+label1 = tk.Label(inputFrame, text="Input a sentence for statistics:", justify="left", anchor="w")
+label1.grid(sticky="w", row=0, column=0, padx=10)
+```
+ <br />
+
+
+Here we are creating and adding an entry which is a textbox that takes user input. The sticky parameter makes
+sure that the widget is aligned to the left of the cell. To get the text from the entry you can use get().
+```
+input_Entry = tk.Entry(inputFrame, width=50)
+input_Entry.grid(sticky="w", row=0, column=1, padx=10)
+
+inputString = input_Entry.get()
+```
+ <br />
+
+
+Here we are adding the frame into the root window
+```
+inputFrame.grid(row=0, column=0)
+```
+ <br />
+
+
+Here we are creating a button and adding it to a button frame. Here we set the text of the button, set the
+color of it using hex, and finally creating a click event handler (command) which points to the function clear.
+If you needed to pass a parameter, you would do "command=lambda: function_name(args)" instead.
+```
+#function for the clear button action
+def clear():
+    input_Entry.delete(0, "end")
+
+exit_button = tk.Button(buttonFrame, text="Clear Text", bg="#69b2bf", command=clear)
+exit_button.grid(sticky="w", row=0, column=1)
+```
+ <br />
 
 
 
-
-
-
-
-
-
+This is an important component in creating the GUI. This mainloop() is necessary for the window/widgets to be drawn
+and for events to be captured.
+```
+root.mainloop()
+```
+ <br />
 
 
 
