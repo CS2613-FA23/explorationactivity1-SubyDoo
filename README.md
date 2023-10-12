@@ -5,25 +5,49 @@
 ## 1. What package/library does this program demonstrate?
 The package used in [sentenceReportGUI.py](https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/blob/main/sentenceReportGUI.py) and [helloWorldGUI.py](https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/blob/main/helloWorldGUI.py) is Tkinter. <br />
 
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/30de9af0-5b4f-4227-b76f-80420ecc2f1e" width=20% height=20%>
+
 It is the only GUI functionality that comes in python's standard library, it is lightweight and so it is beginner friendly, however, it does have an outdated look/functionality where other popular 3rd party GUI libraries don't suffer from.
 
-
-
+ <br />
 Refereces: <br />
 https://docs.python.org/3/library/tkinter.html <br />
-https://realpython.com/python-gui-tkinter/ 
+https://realpython.com/python-gui-tkinter/ <br />
+https://collinjoel.medium.com/tkinter-quickstart-guide-3c81348a5b7 <br />
+ <br />
+
+
 
 
 ## 2. How to run the programs
 Make sure python 3 is installed to the machine and type in terminal for the program you want to run
 > python3 sentenceReportGUI.py <br />
 > python3 helloWorld.py
-
-
+ <br />
 
 
 
 
 ## 3. What purpose dose the programs serve
 
-The helloWorld program is there just to show how easy it is to create your first program using Tkinter
+- The helloWorldGUI program is there just to show how quick and easy it is to create your first program using Tkinter
+
+- The sentenceReportGUI program is the Python PQ1 converted to use GUI instead of a textual interface. It shows a different way to interact with a user as apposed to the textual user interface. <br />
+  The program will take a string as input thought the GUI and report some statistics such as the total number of alphabetic characters, total number words with repeated alphabetic characters, and total number of end-start letter matches between words
+
+ <br />
+
+
+## 4. Sample input/output
+
+- helloWorld.py - you just need to run it
+
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/c9004547-d17b-4b82-8d3d-6b0b366d8290" width=20% height=20%> <br />
+
+- sentenceReportGUI.py
+  - run the program
+
+
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/4492789c-64a2-49b1-b3ac-e00c85e9e78f" width=70% height=70%> <br />
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/151c0e58-91b6-4845-8ccc-9107cded6f34" width=70% height=70%> <br />
+<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/f230d1f3-70d4-4705-a500-77da6af2ea80" width=70% height=70%> <br />
