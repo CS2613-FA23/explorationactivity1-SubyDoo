@@ -9,7 +9,7 @@ The package used in [sentenceReportGUI.py](https://github.com/CS2613-FA23/explor
 
 
  <br />
-Refereces: <br />
+References: <br />
 [image] https://collinjoel.medium.com/tkinter-quickstart-guide-3c81348a5b7 <br />
  <br />
 
