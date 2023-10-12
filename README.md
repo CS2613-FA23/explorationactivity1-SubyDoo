@@ -34,20 +34,20 @@ Make sure python 3 is installed to the machine and type in terminal for the prog
 
 - The sentenceReportGUI program is the Python PQ1 converted to use GUI instead of a textual interface. It shows a different way to interact with a user as apposed to the textual user interface. <br />
   The program will take a string as input thought the GUI and report some statistics such as the total number of alphabetic characters, total number words with repeated alphabetic characters, and total number of end-start letter matches between words
-
  <br />
+
+
+
 
 
 ## 4. Sample input/output
 
 - helloWorld.py - you just need to run it
 
-<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/c9004547-d17b-4b82-8d3d-6b0b366d8290" width=20% height=20%> <br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/c9004547-d17b-4b82-8d3d-6b0b366d8290" width=20% height=20%> <br />
 
 - sentenceReportGUI.py
-  - run the program
+  - run the program to get this initial state <br /> <img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/4492789c-64a2-49b1-b3ac-e00c85e9e78f" width=70% height=70%> <br />
+  - input some text into the textbox and click the "Get the sentence report" button, the labels will update with the statistics <br /> <img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/151c0e58-91b6-4845-8ccc-9107cded6f34" width=70% height=70%> <br />
+  - click the "Clear Text" button to clear the text in the texbox <br /> <img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/f230d1f3-70d4-4705-a500-77da6af2ea80" width=70% height=70%> <br />
 
-
-<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/4492789c-64a2-49b1-b3ac-e00c85e9e78f" width=70% height=70%> <br />
-<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/151c0e58-91b6-4845-8ccc-9107cded6f34" width=70% height=70%> <br />
-<img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/f230d1f3-70d4-4705-a500-77da6af2ea80" width=70% height=70%> <br />
