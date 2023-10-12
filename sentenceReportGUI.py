@@ -132,3 +132,13 @@ exit_button.grid(sticky="e", row=4, column=2)
 
 #tkinter is always looping to check changing values such as mouse positon
 root.mainloop()
+
+####Test Cases####
+#This is a sentence. (15, 1, 0)
+#I order a Total of 21 Fiddleheads. :)) I thought they were exquisite. (50, 6. 2)
+#So cool like so cool like very ye cool like (34, 3, 4)
+#LoooL Like Everything good dog (26, 3, 4)
+#LoO (3, 1, 0)
+#Lo!O (3, 1, 0)
+#!!!! Hi !!!! !!!! I !!!!! See (6, 1, 0)
+#!!!! Hi!!!!!!!! I !!!!! See (6, 1, 1)
