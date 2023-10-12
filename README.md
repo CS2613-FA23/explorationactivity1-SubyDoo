@@ -7,13 +7,10 @@ The package used in [sentenceReportGUI.py](https://github.com/CS2613-FA23/explor
 
 <img src="https://github.com/CS2613-FA23/explorationactivity1-SubyDoo/assets/93729876/30de9af0-5b4f-4227-b76f-80420ecc2f1e" width=20% height=20%>
 
-It is the only GUI functionality that comes in python's standard library, it is lightweight and so it is beginner friendly, however, it does have an outdated look/functionality where other popular 3rd party GUI libraries don't suffer from.
 
  <br />
 Refereces: <br />
-https://docs.python.org/3/library/tkinter.html <br />
-https://realpython.com/python-gui-tkinter/ <br />
-https://collinjoel.medium.com/tkinter-quickstart-guide-3c81348a5b7 <br />
+[image] https://collinjoel.medium.com/tkinter-quickstart-guide-3c81348a5b7 <br />
  <br />
 
 
